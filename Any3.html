@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alluru Poorna Sai - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+  html, body {
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(to right,pink,hotpink
+    );
+    }
+    .carousel-item img {
+      max-height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .card {
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .highlight-box {
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      color: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    section {
+      padding: 60px 0;
+    }
+    
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70" tabindex="0">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top color-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Alluru Poorna Sai</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<section id="about" class="bg-light">
+  <div class="container text-center">
+    <h2>About Me</h2>
+    <p>
+      I am Alluru Poorna Sai, a passionate and detail-oriented Computer Science student with a strong foundation in Java development and full-stack web technologies. With a background in Electrical & Electronics Engineering and hands-on training at Amara Raja Batteries, I bring a unique blend of hardware and software experience to every project.
+    </p>
+    <p>
+      My journey has led me through several real-world applications, including building an AI-powered banking chatbot, a secure e-library management system using Spring Boot & MySQL, and a weather forecasting web app using JavaScript and APIs.
+    </p>
+    <div class="highlight-box">
+      <strong>Currently Learning:</strong> ReactJS, Docker, Microservices, Cloud Computing<br>
+      <strong>Career Objective:</strong> To work in a challenging role where I can contribute meaningfully to innovative projects and continuously grow as a software engineer.<br>
+      <strong>Achievements:</strong> CodeVita Season 12 Participant, Research Paper on Blockchain in IEEE ICEIEC 2025, QSpiders Java Full Stack Incubation
+    </div>
+  </div>
+</section>
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">🎓 Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon bg-primary text-white">
+          <i class="bi bi-mortarboard-fill"></i>
+        </div>
+        <div class="timeline-content shadow-sm p-4 bg-white rounded">
+          <h4>Bachelor of Technology (B.Tech) – Computer Science</h4>
+          <p><strong>Institution :</strong> Siddharth Institute of Engineering and Technology<br>
+          <strong>Duration :</strong> 2022 – 2025</p>
+          <p>
+            Focused on software development, data structures, Java, full-stack technologies, and AI. Actively participated in hackathons, coding competitions, and research activities.
+          </p>
+          <span class="badge bg-success">Java</span>
+          <span class="badge bg-info text-dark">Web Dev</span>
+          <span class="badge bg-dark">Blockchain Research</span>
+        </div>
+      </div>
+
+      <!-- Diploma -->
+      <div class="timeline-item">
+        <div class="timeline-icon bg-secondary text-white">
+          <i class="bi bi-journal-code"></i>
+        </div>
+        <div class="timeline-content shadow-sm p-4 bg-white rounded">
+          <h4>Diploma in Electrical & Electronics Engineering</h4>
+          <p><strong>Institution:</strong>Govt.Polytechnic College<br>
+          <strong>Duration:</strong> 2019 – 2022</p>
+          <p>
+            Gained hands-on experience in circuit analysis, control systems, and industrial training at Amara Raja Batteries Ltd. Developed critical problem-solving and engineering skills.
+          </p>
+          <span class="badge bg-warning text-dark">Industrial Training</span>
+          <span class="badge bg-primary">Power Systems</span>
+          <span class="badge bg-primary">Electrical Circuits</span>
+        </div>
+      </div>
+
+      <!-- School -->
+      <div class="timeline-item">
+        <div class="timeline-icon bg-danger text-white">
+          <i class="bi bi-pencil-square"></i>
+        </div>
+        <div class="timeline-content shadow-sm p-4 bg-white rounded">
+          <h4>SSC (10th Standard)</h4>
+          <p><strong>School:</strong> Sri Baba Vidyanikethan E.M High School<br>
+          <strong>Year of Completion:</strong> 2019</p>
+          <p>
+            Completed with distinction. Showed early interest in computers, mathematics, and logical thinking.
+          </p>
+          <span class="badge bg-success">Mathematics</span>
+          <span class="badge bg-secondary">Science</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="skills">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row text-center mb-4">
+      <div class="col-md-4">
+        <h5>Frontend</h5>
+        <div class="mb-2" data-bs-toggle="tooltip" title="HTML5, CSS3, Bootstrap">
+          <i class="bi bi-filetype-html fs-3 text-danger"></i>
+          <i class="bi bi-filetype-css fs-3 text-primary"></i>
+          <i class="bi bi-bootstrap-fill fs-3 text-purple"></i>
+        </div>
+        <p>HTML, CSS, Bootstrap, JavaScript</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Backend</h5>
+        <div class="mb-2" data-bs-toggle="tooltip" title="Java">
+          <i class="bi bi-code-square fs-3 text-success"></i>
+        </div>
+        <p>Java</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Tools & DB</h5>
+        <div class="mb-2" data-bs-toggle="tooltip" title="MySQL, Git">
+          <i class="bi bi-database fs-3 text-info"></i>
+          <i class="bi bi-git fs-3 text-warning"></i>
+          <i class="bi bi-box-seam fs-3 text-secondary"></i>
+        </div>
+        <p>MySQL, Git,  VSCode, Eclipse</p>
+      </div>
+    </div>
+    <div class="mt-4">
+      <p>Java</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 90%">90%</div>
+      </div>
+     
+      <p>JavaScript</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%">75%</div>
+      </div>
+      <p>SQL</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%">70%</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Major Projects</h2>
+    <p class="text-center mb-5">
+      Here are some of the most impactful and technically challenging projects I've developed, showcasing my skills in full-stack development, cloud integration, and intelligent automation.
+    </p>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">AI Banking Chatbot</h5>
+            <p class="card-text">
+              Built a smart banking chatbot using <strong>Java + DROOLS</strong> to handle queries like balance check, transaction details, and loan information. Integrated with a React frontend and Oracle database using <strong>PL/SQL</strong>.
+            </p>
+            <ul>
+              <li>Rule engine designed for over 40+ user intents</li>
+              <li>Improved query handling efficiency by 60%</li>
+              <li>Enhanced user interaction with dynamic response generation</li>
+            </ul>
+            <span class="badge bg-dark">Java</span>
+            <span class="badge bg-info text-dark">DROOLS</span>
+            <span class="badge bg-success">React</span>
+            <span class="badge bg-warning text-dark">PL/SQL</span>
+            <div class="mt-3">
+              <a href="https://github.com/your-chatbot" target="_blank" class="btn btn-sm btn-outline-dark">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">E-Library Management System</h5>
+            <p class="card-text">
+              Developed a secure and user-friendly digital library platform using <strong>Spring Boot</strong>. Implemented role-based access control, book issue/return workflows, and overdue management.
+            </p>
+            <ul>
+              <li>Admin & student dashboards with authentication</li>
+              <li>Optimized MySQL queries for real-time tracking</li>
+              <li>Integrated RESTful APIs for frontend communication</li>
+            </ul>
+            <span class="badge bg-primary">Java</span>
+            <span class="badge bg-success">Spring Boot</span>
+            <span class="badge bg-secondary">MySQL</span>
+            <span class="badge bg-danger">REST API</span>
+            <div class="mt-3">
+              <a href="https://github.com/your-elibrary" target="_blank" class="btn btn-sm btn-outline-dark">GitHub</a>
+              <a href="https://your-elibrary-demo.com" target="_blank" class="btn btn-sm btn-outline-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Weather Forecast Web App</h5>
+            <p class="card-text">
+              Designed a responsive weather app using <strong>JavaScript</strong> that fetches real-time weather data using OpenWeatherMap API. Implemented search suggestions, dynamic UI, and error handling.
+            </p>
+            <ul>
+              <li>Real-time API integration with JSON parsing</li>
+              <li>Responsive UI using Bootstrap grid system</li>
+              <li>Enhanced UX with local storage & error alerts</li>
+            </ul>
+            <span class="badge bg-warning text-dark">JavaScript</span>
+            <span class="badge bg-info text-dark">API</span>
+            <span class="badge bg-primary">Bootstrap</span>
+            <div class="mt-3">
+              <a href="https://github.com/your-weather-app" target="_blank" class="btn btn-sm btn-outline-dark">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Currency Conversion App</h5>
+            <p class="card-text">
+              Built a modular currency converter for INR, USD, and Euro. Utilized <strong>Java functions, switch-case logic</strong>, and formatted output to deliver quick and clean conversion results.
+            </p>
+            <ul>
+              <li>Improved processing speed by 50%</li>
+              <li>UI feedback with formatted display & rounding</li>
+              <li>Used Scanner for robust input validation</li>
+            </ul>
+            <span class="badge bg-dark">Java</span>
+            <span class="badge bg-info text-dark">Switch-case</span>
+            <span class="badge bg-success">Scanner</span>
+            <div class="mt-3">
+              <a href="https://github.com/your-currency-app" target="_blank" class="btn btn-sm btn-outline-dark">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="highlights" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Extra Highlights</h2>
+    <p class="text-center mb-5">Some of the proud milestones and credentials I’ve earned during my academic and professional journey.</p>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card border-start border-5 border-primary shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">📄 Research Paper - IEEE ICEIEC 2025</h5>
+            <p class="card-text">
+              Published a research paper titled <strong>“A Secure and Confidential Medical Data Exchange Model Using Blockchain Technology”</strong> in IEEE ICEIEC 2025, focusing on secure and decentralized healthcare data sharing.
+            </p>
+            <span class="badge bg-secondary">Blockchain</span>
+            <span class="badge bg-info text-dark">Research</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-start border-5 border-warning shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">🏆 TCS CodeVita Season 12</h5>
+            <p class="card-text">
+              Successfully participated in one of the world's largest coding competitions. Solved algorithmic problems under time constraints and enhanced skills in logic building and competitive programming.
+            </p>
+            <span class="badge bg-dark">C/C++</span>
+            <span class="badge bg-success">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-start border-5 border-success shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">🎓 Software Development Training - QSpiders</h5>
+            <p class="card-text">
+              Selected for a free incubation program at QSpiders where I received hands-on training in core Java, Selenium, SQL, and manual testing methodologies to build a strong software testing foundation.
+            </p>
+            <span class="badge bg-primary">Java</span>
+            <span class="badge bg-danger">Testing</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-start border-5 border-danger shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">🏭 Engineering Intern - Amara Raja Batteries</h5>
+            <p class="card-text">
+              Completed an industrial training program where I contributed to reducing project turnaround time by 15%. Collaborated with multidisciplinary teams and solved real-world technical challenges.
+            </p>
+            <span class="badge bg-secondary">Engineering</span>
+            <span class="badge bg-success">Internship</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card border-start border-5 border-info shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">💡 Mini Projects & Technical Showcase</h5>
+            <p class="card-text">
+              Developed a variety of real-time Java and web-based applications such as a Voting Eligibility System, Library System, Pattern Printers, and a Currency Converter. Demonstrated strong use of control statements, loops, arrays, and UI logic.
+            </p>
+            <span class="badge bg-dark">Java</span>
+            <span class="badge bg-info text-dark">Logic Building</span>
+            <span class="badge bg-primary">Web Dev</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="experience" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">💼 Experience</h2>
+    <div class="card mb-4 shadow-sm border-start border-4 border-primary">
+      <div class="card-body">
+        <h4 class="card-title">Engineering Intern – Amara Raja Batteries Ltd.</h4>
+        <h6 class="text-muted">June 2022 – August 2022 | Tirupati, India</h6>
+        <p class="card-text">
+          • Addressed real-world engineering challenges by collaborating with multi-disciplinary teams.<br>
+          • Contributed to quality assurance and documentation efforts, reducing project turnaround time by 15%.<br>
+          • Developed optimization workflows that saved ~20 hours/month per team using better communication and design strategies.
+        </p>
+        <span class="badge bg-success">Process Optimization</span>
+        <span class="badge bg-info text-dark">Documentation</span>
+        <span class="badge bg-secondary">Industrial Training</span>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm border-start border-4 border-success">
+      <div class="card-body">
+        <h4 class="card-title">Java Full Stack Trainee – QSpiders Training Institute</h4>
+        <h6 class="text-muted">Jan 2025 – Present</h6>
+        <p class="card-text">
+          • Selected through a free incubation program and received rigorous training in Java, Spring Boot, HTML, CSS, and SQL.<br>
+          • Developed full-stack applications as part of capstone projects with guidance from senior mentors.<br>
+          • Improved backend performance and wrote clean, scalable code adhering to industry standards.
+        </p>
+        <span class="badge bg-primary">Java</span>
+        <span class="badge bg-warning text-dark">Spring Boot</span>
+        <span class="badge bg-dark">SQL</span>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm border-start border-4 border-danger">
+      <div class="card-body">
+        <h4 class="card-title">Project Developer – Medical Data Blockchain (IEEE Paper)</h4>
+        <h6 class="text-muted">Mar 2025 – Jun 2025</h6>
+        <p class="card-text">
+          • Developed a secure medical data exchange system using blockchain architecture.<br>
+          • Focused on privacy-preserving smart contracts and transparent data access.<br>
+          • Co-authored a research paper accepted by IEEE ICEIEC 2025.
+        </p>
+        <span class="badge bg-info text-dark">Blockchain</span>
+        <span class="badge bg-success">Smart Contracts</span>
+        <span class="badge bg-secondary">Research</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">📬 Contact Me</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="How can I help you?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="row mt-5 text-center">
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-envelope fs-3 text-primary"></i>
+        <p class="mb-0">Email</p>
+        <p><a href="mailto:allurupoorna2083@gmail.com">allurupoorna2083@gmail.com</a></p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-telephone fs-3 text-success"></i>
+        <p class="mb-0">Phone</p>
+        <p>+91 8977610229</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-geo-alt fs-3 text-danger"></i>
+        <p class="mb-0">Location</p>
+        <p>Tirupati, Andhra Pradesh, India</p>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="./A.Poorna Sai .pdf" class="btn btn-outline-dark btn-lg" target="_blank">
+        <i class="bi bi-download me-2"></i>Download Resume
+      </a>
+    </div>
+  </div>
+</section>
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 A.Poorna Sai. All Rights Reserved.
+  </footer>
+</body>
+</html>
+
+
+
+ 
